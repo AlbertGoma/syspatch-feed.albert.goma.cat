@@ -3,12 +3,50 @@
     <title>OpenBSD Patches</title>
     <link rel="self" href="https://syspatch.albert.goma.cat/atom.xml"/>
     <link rel="related" href="https://www.openbsd.org"/>
-    <updated>2023-01-12T23:11:33Z</updated>
+    <updated>2023-01-18T02:03:24Z</updated>
     <author>
         <name>Albert Gomà i León</name>
         <uri>https://albert.goma.cat</uri>
     </author>
     <id>tag:albert.goma.cat,2023:feed/openbsd/sypatch</id>
+   <entry>
+       <id>tag:albert.goma.cat,2023:syspatch_feed/v71-p019_libxpm</id>
+       <title type="html">OpenBSD 7.1, 019: SECURITY FIX</title>
+       <updated>2023-01-17T00:00:18Z</updated>
+       <content type="html">
+&lt;strong&gt;019: SECURITY FIX: January 17, 2023&lt;&#x2F;strong&gt;
+&amp;nbsp; &lt;i&gt;All architectures&lt;&#x2F;i&gt;
+&lt;br&gt;
+Input validation issues and path validation issues in libXpm can lead
+to infinite loops, memory corruption or arbitrary command execution.
+CVE-2022-46285, CVE-2022-44617 and CVE-2022-4883
+&lt;br&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;ftp.openbsd.org&#x2F;pub&#x2F;OpenBSD&#x2F;patches&#x2F;7.1&#x2F;common&#x2F;019_libxpm.patch.sig&quot;&gt;
+A source code patch exists which remedies this problem.&lt;&#x2F;a&gt;
+&lt;p&gt;
+
+&lt;&#x2F;p&gt;</content>
+       <link rel="alternate" type="text/html" href="https://www.openbsd.org/errata71.html#p019_libxpm"/>
+   </entry>
+   <entry>
+       <id>tag:albert.goma.cat,2023:syspatch_feed/v72-p014_libxpm</id>
+       <title type="html">OpenBSD 7.2, 014: SECURITY FIX</title>
+       <updated>2023-01-17T00:00:13Z</updated>
+       <content type="html">
+&lt;strong&gt;014: SECURITY FIX: January 17, 2023&lt;&#x2F;strong&gt;
+&amp;nbsp; &lt;i&gt;All architectures&lt;&#x2F;i&gt;
+&lt;br&gt;
+Input validation issues and path validation issues in libXpm can lead
+to infinite loops, memory corruption or arbitrary command execution.
+CVE-2022-46285, CVE-2022-44617 and CVE-2022-4883
+&lt;br&gt;
+&lt;a href=&quot;https:&#x2F;&#x2F;ftp.openbsd.org&#x2F;pub&#x2F;OpenBSD&#x2F;patches&#x2F;7.2&#x2F;common&#x2F;014_libxpm.patch.sig&quot;&gt;
+A source code patch exists which remedies this problem.&lt;&#x2F;a&gt;
+&lt;p&gt;
+
+&lt;&#x2F;p&gt;</content>
+       <link rel="alternate" type="text/html" href="https://www.openbsd.org/errata72.html#p014_libxpm"/>
+   </entry>
    <entry>
        <id>tag:albert.goma.cat,2023:syspatch_feed/v71-p018_tcp</id>
        <title type="html">OpenBSD 7.1, 018: SECURITY FIX</title>
